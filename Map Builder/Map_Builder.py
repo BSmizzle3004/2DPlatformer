@@ -20,7 +20,7 @@ pygame.display.set_caption("Map Builder")
 
 clock = pygame.time.Clock()
 
-image = pygame.image.load("/Users/bensmith/Programming/NEA/2D Platformer/Images/fire_block_1.png").convert()
+image = pygame.image.load("/NEA/2DPlatformer/Images/fire_block_1.png").convert()
 image = pygame.transform.scale(image, (BLOCK_SIZE, BLOCK_SIZE))
 
 rectangles = []
